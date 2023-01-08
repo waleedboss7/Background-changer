@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: #2e6856cd;
+    font-family: Georgia, 'Times New Roman', Times, serif,sans-serif;
+   
+}
+
+button:hover {
+    background-color: black;
+}
+
+button:active {
+    background-color: #008000;
+    border-radius: 10px
+}
